@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 90vh;
+    /* width: 50% !important; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+form {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.number-input {
+    width: 30vh;
+}
+
+.show-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-image {
+    height: 450px;
+    /* background-color: green; */
+}
+
+#photo {
+    height: 100%;
+    border-radius: 15px;
+}
